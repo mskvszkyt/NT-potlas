@@ -1,0 +1,131 @@
+*{
+    margin: 5px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #18181b;
+    color: #d1d5db;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 24rem;
+    padding: 1rem;
+    space-between: 1rem;
+}
+
+.header {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    background-color: #27272a;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.password-input {
+    flex-grow: 1;
+    background: transparent;
+    border: none;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    color: #d1d5db;
+}
+
+.copy-button {
+    color: #10b981;
+}
+
+.copy-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.settings-container {
+    background-color: #27272a;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    space-between: 1rem;
+}
+
+.length-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.length-label {
+    font-size: 0.875rem;
+}
+
+.length-value {
+    font-size: 0.875rem;
+}
+
+.range-input {
+    width: 100%;
+    background-color: #3f3f46;
+}
+
+.checkbox-container {
+    space-between: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    space-between: 0.5rem;
+}
+
+.checkbox-input {
+    form-checkbox;
+    background-color: #3f3f46;
+    border-color: #52525b;
+    color: #10b981;
+}
+
+.checkbox-text {
+    font-size: 0.875rem;
+}
+
+.strength-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.strength-label {
+    font-size: 0.875rem;
+}
+
+.strength-bars {
+    display: flex;
+    space-between: 0.25rem;
+}
+
+.strength-bar {
+    width: 1rem;
+    height: 1rem;
+    background-color: #3f3f46;
+}
+
+.generate-button {
+    width: 100%;
+    background-color: #10b981;
+    color: #18181b;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
